@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn.icon-icons.com/icons2/2406/PNG/512/github_git_icon_145985.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Github Card</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="index.html" class="form" id="form">
+            <input type="text" name="username" placeholder="Enter username" id="inputField">
+            <button id="submitButton" class="ipbtn">Create Card</button>
+        </form>
+        <div class="userDiv" id="userDiv">
+            <div class="bg-pink"></div>
+            <a href="./index.html" class="back">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </a>
+            <a href="" id="profile" target="_blank">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <img src="" id="userImg" />
+            <div class="names" id="names">
+                <h1 class="name" id="name">Name</h1>
+                <p class="username" id="username"></p>
+            </div>
+            <p id="bio">~Bio~</p>
+            <div class="infoBox">
+                <div class="box">
+                    <p class="data" id="followers">0</p>
+                    <p class="boxTitle">Followers</p>
+                </div>
+                <div class="box">
+                    <p class="data" id="following">0</p>
+                    <p class="boxTitle">Following</p>
+                </div>
+                <div class="box">
+                    <p class="data" id="repos">0</p>
+                    <p class="boxTitle">Repos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./bundle.js"></script>
+</body>
+
+</html>
