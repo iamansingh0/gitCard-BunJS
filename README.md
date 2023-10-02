@@ -18,9 +18,11 @@ This project was created using `bun init` in bun v1.0.3. [Bun](https://bun.sh) i
 
 deployed: [link](https://gitcard-mu.vercel.app/)
 
-<p>
-  <img src="form.png" />
+<p align=center>
+  <img src="form.png" height="200px" width="300px">
 </p>
-<p>
-  <img src="card.png" />
+<p align=center>
+  <img src="card.png" height="400px" width="430px">
 </p>
+
+Design Credits: 
