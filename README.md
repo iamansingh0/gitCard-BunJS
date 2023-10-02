@@ -25,4 +25,4 @@ deployed: [link](https://gitcard-mu.vercel.app/)
   <img src="card.png" height="400px" width="430px">
 </p>
 
-Design Credits: 
+Design Credits: [https://codepen.io/RocktimSaikia/full/jObbBmR](https://codepen.io/RocktimSaikia/full/jObbBmR)
