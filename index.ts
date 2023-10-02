@@ -27,5 +27,6 @@ if (submitButton) {
 
         // profile link
         document.getElementById('profile').href = userData.html_url
+        document.getElementById('names').href = userData.html_url
     })
 }
